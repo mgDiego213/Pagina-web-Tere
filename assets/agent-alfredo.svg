@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="140" height="140" viewBox="0 0 140 140" role="img" aria-label="Alfredo Moya">
+  <defs>
+    <linearGradient id="gold" x1="0" x2="0" y1="0" y2="1">
+      <stop offset="0" stop-color="#fdebb5"/><stop offset="1" stop-color="#d4af37"/>
+    </linearGradient>
+  </defs>
+  <rect x="4" y="4" width="132" height="132" rx="26" fill="rgba(255,255,255,0.02)" stroke="rgba(212,175,55,0.22)"/>
+  <circle cx="70" cy="56" r="22" fill="rgba(245,241,232,0.06)" stroke="url(#gold)" stroke-width="2"/>
+  <path d="M30 118c6-22 22-34 40-34s34 12 40 34" fill="rgba(245,241,232,0.03)" stroke="url(#gold)" stroke-width="2" stroke-linecap="round"/>
+  <path d="M52 58c6 6 30 6 36 0" fill="none" stroke="rgba(245,241,232,0.20)" stroke-width="2" stroke-linecap="round"/>
+  <path d="M54 46h32" stroke="rgba(245,241,232,0.18)" stroke-width="2" stroke-linecap="round"/>
+</svg>

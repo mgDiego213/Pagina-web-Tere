@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="140" height="140" viewBox="0 0 140 140" role="img" aria-label="Atención General">
+  <defs>
+    <linearGradient id="gold" x1="0" x2="0" y1="0" y2="1">
+      <stop offset="0" stop-color="#fdebb5"/><stop offset="1" stop-color="#d4af37"/>
+    </linearGradient>
+  </defs>
+  <rect x="4" y="4" width="132" height="132" rx="26" fill="rgba(255,255,255,0.02)" stroke="rgba(212,175,55,0.22)"/>
+  <g fill="rgba(245,241,232,0.06)" stroke="url(#gold)" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+    <circle cx="54" cy="56" r="16"/>
+    <circle cx="86" cy="56" r="16"/>
+    <path d="M22 118c4-18 16-28 32-28s28 10 32 28"/>
+    <path d="M54 118c4-18 16-28 32-28s28 10 32 28"/>
+  </g>
+</svg>
