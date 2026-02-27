@@ -577,4 +577,62 @@ footer{
 
 
 /* Disabled placeholder buttons */
-.btn-disabled{opacity:0.55; pointer-events:none; filter:saturate(0.8);} 
+.btn-disabled{opacity:0.55; pointer-events:none; filter:saturate(0.8);}
+
+/* Mobile polish (<= 520px): tighter header, full-bleed hero, better spacing */
+@media (max-width: 520px){
+  .container{ padding: 0 16px; }
+
+  /* Header: keep one-line, make logo + CTA fit */
+  .header-inner{ padding: 10px 0; gap: 10px; }
+  .brand{ min-width: 0; }
+  .brand img{ width: 138px; }
+
+  .header-ctas{ gap: 8px; }
+  .header-ctas .btn-primary{
+    padding: 10px 12px;
+    font-size: 12.5px;
+    max-width: 200px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
+
+  .btn{ padding: 11px 12px; font-size: 13px; }
+  .btn-icon{ width: 42px; height: 42px; border-radius: 14px; }
+
+  /* Hero: prevent “blank band” on the right by tightening the hero background inset and re-centering */
+  .hero{ padding: 44px 0 28px 0; }
+  .hero::before{
+    inset: -56px -76px -96px -76px;
+    background-position: 60% 30%;
+    opacity: 0.88;
+    transform: none;
+  }
+
+  .hero-inner{ gap: 18px; }
+  .h-title{ font-size: clamp(30px, 9vw, 40px); }
+  .h-sub{ font-size: 15px; }
+
+  /* Make CTAs stack nicely */
+  .hero-actions{ gap: 10px; }
+  .hero-actions .btn{ width: 100%; justify-content: center; }
+
+  /* Cards + sections: less padding */
+  .grid-3, .grid-2{ gap: 12px; }
+  .card{ padding: 16px; border-radius: 18px; }
+  .card:hover{ transform: none; } /* no “hover lift” on touch devices */
+
+  .section{ padding: 44px 0; }
+  .section-head{ align-items:flex-start; }
+  .section-title{ font-size: 28px; }
+
+  /* Floating WhatsApp button: slightly smaller */
+  .whatsapp-fab{ right: 14px; bottom: 14px; width: 52px; height: 52px; border-radius: 18px; }
+  .whatsapp-fab svg{ width: 24px; height: 24px; }
+}
+
+/* Extra-small screens */
+@media (max-width: 380px){
+  .brand img{ width: 126px; }
+  .header-ctas .btn-primary{ max-width: 175px; }
+}
