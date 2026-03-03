@@ -636,3 +636,35 @@ footer{
   .brand img{ width: 126px; }
   .header-ctas .btn-primary{ max-width: 175px; }
 }
+
+
+/* Footer (business verification) */
+.site-footer .footer-grid{
+  display:flex;
+  flex-wrap: wrap;
+  gap: 14px;
+  align-items: flex-start;
+  justify-content: space-between;
+}
+.site-footer .footer-links{
+  display:flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  align-items: center;
+}
+.site-footer .footer-links a{
+  padding: 8px 10px;
+  border-radius: 999px;
+  border: 1px solid rgba(255,255,255,0.12);
+  background: rgba(255,255,255,0.02);
+  color: var(--muted);
+  font-size: 13px;
+}
+.site-footer .footer-links a:hover{
+  color: var(--text);
+  background: rgba(255,255,255,0.05);
+  border-color: rgba(255,255,255,0.22);
+}
+.legal-card .legal-name{
+  font-weight: 800;
+}
